@@ -1,7 +1,4 @@
-<?jelly escape-by-default='true'?>
-<!--
-  This view is used to render the installed plugins page.
--->
 <div>
-  This plugin is a sample to explain how to write a Jenkins plugin.
+    Offers matrix-based security authorization strategies (global and per-project).
+    Offers A locked-down version of <a href="https://github.com/kohsuke/hudson/blob/master/core/src/main/java/hudson/security/FullControlOnceLoggedInAuthorizationStrategy.java">FullControlOnceLoggedInAuthorizationStrategy</a> that does not allow anonymous to do anything
 </div>
