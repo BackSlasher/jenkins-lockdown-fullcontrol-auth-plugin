@@ -72,10 +72,5 @@ public class LockdownFullControlOnceLoggedInAuthorizationStrategy extends Author
         public AuthorizationStrategy newInstance(StaplerRequest req, JSONObject formData) throws FormException {
             return new LockdownFullControlOnceLoggedInAuthorizationStrategy();
         }
-
-        @Override
-        public String getHelpFile() {
-            return "/help/security/lockdown-full-control-once-logged-in.html";
-        }
     };
 }
