@@ -24,6 +24,7 @@
 package net.backslasher.jenkins;
 import org.jenkinsci.plugins.lockdownfullcontrolauth.Messages;
 
+import hudson.security.*;
 import hudson.model.Descriptor;
 import jenkins.model.Jenkins;
 import hudson.Extension;
