@@ -12,7 +12,7 @@
   </parent>
   <groupId>net.backslasher.jenkins</groupId>
   <artifactId>lockdown-fullcontrol-auth</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>hpi</packaging>
 
   <name>Lockdown Logged-in Authorization Startegy</name>
